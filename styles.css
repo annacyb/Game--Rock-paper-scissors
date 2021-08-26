@@ -100,10 +100,34 @@ h1 {
   display: none;
 }
 
+h2 {
+  text-align: center;
+  color: indianred;
+  font-weight: 100;
+  font-size: 25px;
+  margin-right: 5%;
+}
+
+#usersPoints, #computersPoints {
+  font-size: 45px;
+}
+
+#bottomElements {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+
+#bottomElements h3 {
+  font-size: 30px;
+  font-weight: 100;
+  align-self: center;
+}
+
 #buttons {
   display: flex;
   justify-content: space-around;
-  max-width: 50vw;
 }
 
 #buttons.disabled button {
